@@ -27,7 +27,6 @@ deploy:
       repo: courage331/freelec-springboot2-webservice #Github 주소
       branch: master
 
-
 # CI 실행 완료시 메일로 알람
 notifications:
   email:
