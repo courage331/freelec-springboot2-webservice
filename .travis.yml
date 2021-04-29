@@ -33,7 +33,7 @@ deploy:
     cleanup : false
     acl: private # zip 파일 접근을 private으로
     local_dir: deploy # before_deploy에서 생성한 디렉토리
-    wait-until-deployed: false
+    wait-until-deployed: true
     on:
       repo: courage331/freelec-springboot2-webservice #Github 주소
       branch: master
@@ -47,7 +47,7 @@ deploy:
     application: springboot-webservice # 웹 콘솔에서 등록한 CodeDeploy 어플리케이션
     deployment_group: springboot-webservice-group # 웹 콘솔에서 등록한 CodeDeploy 배포 그룹
     region: ap-northeast-2
-    wait-until-deployed: false
+    wait-until-deployed: true
     on:
       repo: courage331/freelec-springboot2-webservice
       branch: master
