@@ -53,6 +53,7 @@ deploy:
       branch: master
 
 
+
 # CI 실행 완료시 메일로 알람
 notifications:
   email:
