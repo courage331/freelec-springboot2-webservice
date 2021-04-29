@@ -47,7 +47,7 @@ deploy:
     application: springboot-webservice # 웹 콘솔에서 등록한 CodeDeploy 어플리케이션
     deployment_group: springboot-webservice-group # 웹 콘솔에서 등록한 CodeDeploy 배포 그룹
     region: ap-northeast-2
-    wait-until-deployed: true
+    wait-until-deployed: false
     on:
       repo: courage331/freelec-springboot2-webservice
       branch: master
